@@ -1,4 +1,4 @@
-# kyledecker.me
+# Kyle Decker
 
 Here's all the stuff that makes my site go.
 

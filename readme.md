@@ -1,6 +1,6 @@
 # kyledecker.me
 
-Here's all the junk that makes my personal site run.
+Here's all the junk that makes my site go.
 
 ## Credits
 

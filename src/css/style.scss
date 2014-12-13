@@ -1,0 +1,156 @@
+// 
+// VARIABLES & SILENT CLASSES
+// 
+
+$text: #353E4B;
+$text-light: #A59D8A;
+$link: #E35D53;
+$beige: #F8F7F3;
+$bg: $beige;
+
+$unit: 14px; // Used for maintaining vertical rhythm
+
+%font-serif {
+	font-family: 'Vollkorn', Georgia, Times, serif;
+	font-weight: 300;
+}
+
+%font-sans {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+
+%cf {
+	*zoom: 1; // IE 6/7
+	&:after { clear: both; }
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+}
+
+::selection {
+	background-color: $beige;
+}
+
+// 
+// RESETS & BASIC STYLES
+// 
+
+html {
+	-webkit-font-smoothing: antialiased; // Fix fatty fonts
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, ul, ol, li, p, form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+
+// Display-role reset for older browsers
+article, footer, header, nav, section, main {
+	display: block;
+}
+
+// Natural box model
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: $bg;
+	line-height: $unit*2;
+	color: $text;
+	font-size: 20px;
+	@extend %font-serif;
+}
+
+a {
+	color: $link;
+	border-bottom: 2px solid darken($beige, 5%);
+	text-decoration: none;
+	transition: linear .2s;
+	&:hover {
+		border-bottom-color: $link;
+	}
+	&.disabled {
+		color: $text-light;
+		text-decoration: line-through;
+		pointer-events: none;
+	}
+}
+
+ol, ul { list-style: none; }
+
+p {
+	margin-bottom: $unit*2;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	@extend %font-sans;
+}
+
+.body-wrapper {
+	background: #fff;
+	padding: $unit*4;
+	margin: $unit*2;
+	@extend %cf;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 725px;
+}
+
+// Content
+
+.main { @extend %cf; }
+
+.header { margin-bottom: $unit*4; }
+
+.site-title { font-size: 1.5em; }
+
+.selfie {
+	position: absolute;
+	width: $unit*8;
+	height: $unit*8;
+	left: -$unit*10;
+	border-radius: 100%;
+}
+
+.banner {
+	display: none;
+	max-width: 100%;
+	margin-bottom: $unit*2;
+	border-radius: 2px;
+}
+
+.hello {
+	font-size: 1.6em;
+	line-height: $unit*3;
+	margin-bottom: 0;
+}
+
+// Info Sidebar
+
+.info {
+	float: right;
+	width: 200px;
+	margin-left: $unit*2;
+	@extend %font-sans;
+	font-size: 0.8em;
+}
+
+.info-block {
+	margin-bottom: $unit*2;
+}
+
+.info-header {
+	color: $text-light;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	//margin-bottom: $unit*2;
+}

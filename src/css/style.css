@@ -75,32 +75,38 @@ h1, h2, h3, h4 {
 .site-title {
   font-size: 1.5em; }
 
+.hello {
+  font-size: 1.6em;
+  line-height: 42px;
+  position: relative; }
+
+.amp {
+  font-style: italic; }
+
 .selfie {
   position: absolute;
   width: 112px;
   height: 112px;
-  left: -140px;
+  left: -154px;
+  top: 50%;
+  margin-top: -56px;
   border-radius: 100%; }
 
-.banner {
-  display: none;
-  max-width: 100%;
-  margin-bottom: 28px;
-  border-radius: 2px; }
-
-.hello {
-  font-size: 1.6em;
-  line-height: 42px;
+.content img {
+  max-width: 100%; }
+.content p:last-child {
   margin-bottom: 0; }
 
 .info {
   float: right;
   width: 200px;
-  margin-left: 28px;
+  margin-left: 42px;
   font-size: 0.8em; }
 
 .info-block {
   margin-bottom: 28px; }
+  .info-block:last-child {
+    margin-bottom: 0; }
 
 .info-header {
   color: #A59D8A;

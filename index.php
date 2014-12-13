@@ -15,9 +15,10 @@
 <body>
 	<div class="body-wrapper">
 		<header class="header">
-			<div class="wrapper">
+			<div class="hello wrapper">
 				<!-- <h1 class="site-title" itemprop="name">Kyle Decker</h1> -->
-				<p class="hello">My name is Kyle Decker. I'm a designer, developer, and musician in love with the art of creation.</p>
+				<img src="src/img/selfie.jpg" alt="C'est moi!" class="selfie">
+				My name is Kyle Decker. I'm a designer, developer, <span class="amp">&amp;</span> musician in love with the art of creation.
 			</div>
 		</header>
 		<main class="main">
@@ -48,11 +49,9 @@
 					</div>
 				</aside>
 				<div class="content">
-					<img src="src/img/selfie.jpg" alt="C'est moi!" class="selfie">
-					<img src="src/img/banner.jpg" alt="C'est moi!" class="banner">
+					<p>I started fiddling with web technologies in middle school and haven't stopped since. I've worked for clients on my own and in small teams, and I will graduate with a degree in Music and Computer Science this May. <i>(Finally!)</i></p>
 					<p>I currently design websites for humans at <a href="http://catnap.co">Catnap</a>, a business I co-founded with my boyfriend <a href="http://liamscott.me">Liam Scott</a>. Together we make the web shine.</p>
-					<p>I have been fiddling with web technologies since middle school, and throughout high school and college I have gained experience freelancing and working as part of an agency. I am set to graduate with a degree in Music and Computer Science in about 4 months. <i>(Finally!)</i></p>
-					<p>For my life in bullet points, see my <a href="resume">résumé</a>. If you'd rather chat, send mail to <a href="mailto:kyle@kyledecker.me">kyle@kyledecker.me</a> or come find me in Greensboro and we'll share conversation and coffee. Hope to hear from you soon.</p>
+					<p>For my life in bullet points, see my <a href="resume">résumé</a>. If you'd rather chat, send mail to <a href="mailto:kyle@kyledecker.me">kyle@kyledecker.me</a> or give me a call in Greensboro and we'll share conversation and coffee. Hope to hear from you soon.</p>
 				</div>
 			</div>
 		</main>

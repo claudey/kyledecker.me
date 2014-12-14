@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" /> 
 	<meta name="description" content="The personal homepage for Kyle Decker, designer." />
-	<meta name="author" itemprop="name" content="Kyle Decker" />
+	<meta name="author" content="Kyle Decker" />
 	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
 	<link rel="stylesheet" href="src/css/style.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker|Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
@@ -14,6 +14,7 @@
 <body>
 	<div class="body-wrapper">
 		<header class="header">
+			<h1 class="site-title" itemprop="name">Kyle Decker</h1>
 			<div class="hello wrapper">
 				<img src="src/img/selfie.jpg" alt="C'est moi!" itemprop="image" class="selfie">
 				My name is Kyle Decker. I'm a designer, developer <span class="amp">&amp;</span> musician in love with the art of <span class="creation">creation</span>.

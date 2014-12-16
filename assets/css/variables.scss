@@ -1,0 +1,19 @@
+$text: #353E4B;
+$text-light: #A6AEB9;
+$border: #ddd;
+$red: #E35D53;
+$blue: #3279DF;
+$lightblue: #CDDDF4;
+$beige: #F8F7F3;
+$bg: $beige;
+
+$unit: 15px; // Used for maintaining vertical rhythm
+
+%cf {
+	*zoom: 1; // IE 6/7
+	&:after { clear: both; }
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+}

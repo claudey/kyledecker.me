@@ -1,0 +1,76 @@
+Title: Resumé
+
+----
+
+Education: 
+
+- 
+  school_name: >
+    University of North Carolina at
+    Greensboro
+  school_dates: Fall 2011 – Spring 2015
+  school_desc: >
+    BA in Music with a Computer Science
+    Minor; 3.93 GPA (as of Spring 2014).
+    Katherine Smith Reynolds scholarship
+    recipient. Teaching assistant for ART
+    446 (Graphic Design) during Spring 2013.
+
+----
+
+Experience: 
+
+- 
+  job_name: Freelance Designer
+  job_dates: Fall 2009 – Present
+  job_desc: >
+    Flying solo, I have designed websites,
+    logos, billboards, t-shirts, business
+    cards, and posters for various clients.
+    I manage billing and deadlines,
+    communicating early and often to discuss
+    progression and next steps.
+- 
+  job_name: MadMonk Interactive
+  job_dates: Fall 2012 – Fall 2014
+  job_desc: 'I worked at <a href="http://madmonkinteractive.com">MadMonk</a> first as an intern and later as a part-time employee. My responsibilities included identity design, web design, front-end development, print design, and video editing. I helped initiate rebranding and social media campaigns for multiple business and non-profits, including clients like the City of Greensboro, Greensboro Zombie Run, The MudBug Run, Deuterman Law, Biscuitville, and MadMonk itself.'
+
+----
+
+Contacts: References and music resumé available upon request.
+
+----
+
+Skills: 
+
+- 
+  skill: Web Design
+  is_acronym: 'false'
+- 
+  skill: Branding
+  is_acronym: 'false'
+- 
+  skill: Logo Design
+- 
+  skill: Front-End Development
+- 
+  skill: Photography
+  is_acronym: 'false'
+- 
+  skill: User Experience
+- 
+  skill: Photoshop
+- 
+  skill: Illustrator
+- 
+  skill: WordPress
+  is_acronym: 'false'
+- 
+  skill: Copywriting
+- 
+  skill: Search Engine Optimization
+- 
+  skill: Git
+  is_acronym: 'false'
+- 
+  skill: OS X

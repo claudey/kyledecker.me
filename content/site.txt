@@ -1,0 +1,57 @@
+Title: Kyle Decker
+
+----
+
+Author: Kyle Decker
+
+----
+
+Description: The personal homepage for Kyle Decker, designer.
+
+----
+
+Keywords: designer,Greensboro,web design,web development,html,css
+
+----
+
+Phone: +1 (828) 808-2116
+
+----
+
+Email: kyle@kyledecker.me
+
+----
+
+Dribbble: kdeckr
+
+----
+
+Facebook: kdeckr
+
+----
+
+Github: kdeckr
+
+----
+
+Instagram: kdeckr
+
+----
+
+Street: 20 Amber Drive
+
+----
+
+City: Horse Shoe
+
+----
+
+State: NC
+
+----
+
+Zip: 28742
+
+----
+
+Copyright: © (date: Year) Kyle Decker

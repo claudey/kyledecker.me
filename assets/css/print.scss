@@ -1,0 +1,27 @@
+@media print {
+	body {
+		background: transparent;
+		color: #000;
+		font-size: 11pt;
+	}
+	a {
+		color: #000;
+		text-decoration: underline;
+		border: none;
+	}
+	p a {
+		word-wrap: break-word;
+		&:after { // Display URLs in paragraphs
+			content: " (" attr(href) ")";
+			font-size: 80%;
+		}
+	}
+	.body-wrapper { padding: 0; }
+	.header { display: none; }
+	h1, h2, h3 {
+		margin-top: $unit*2;
+		margin-bottom: $unit;
+	}
+	.resume-requests { margin-top: $unit*2; }
+	.footer { margin-top: $unit*2; }
+}

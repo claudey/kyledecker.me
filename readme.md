@@ -4,6 +4,7 @@ Here's all the stuff that makes my site go.
 
 ## Credits
 
+- Flat-file content management using [Kirby 2](http://getkirby.com)
 - Fontface is the ever-lovely [Vollkorn](http://vollkorn-typeface.com/) by Friedrich Althausen
 - [SASS](http://sass-lang.com) and [CodeKit](https://incident57.com/codekit/) for magical CSS compilation
 - File transfers to [A Small Orange](http://asmallorange.com) via [Transmit](http://panic.com/transmit/)

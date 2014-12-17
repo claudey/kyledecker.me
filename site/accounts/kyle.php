@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 872ccc0446b40a6348c6585a941b53adcb26a2b1
 history:
-  - resume
-  - projects
   - projects/winter-mix
-  - projects/tunetwin
   - projects/catnap
+  - projects/tunetwin
+  - projects
+  - resume

@@ -91,10 +91,6 @@ a {
 
 .menu { @extend %cf; }
 
-// 
-// CONTENT
-// 
-
 img {
 	max-width: 100%;
 	border-radius: 3px;
@@ -111,6 +107,49 @@ img {
 .project-banner {
 	img { display: block; }
 	+ .project-name { margin-top: $unit*2; }
+}
+
+// 
+// RESUME
+// 
+
+.resume-section-title { text-align: center; }
+
+.resume-name { display: inline; }
+
+.resume-dates {
+	display: inline;
+	font-size: 0.8em;
+	font-style: italic;
+	color: $text-light;
+}
+
+.resume-desc {
+	font-size: 0.9em;
+	clear: both;
+}
+
+.skills {
+	text-align: center;
+	@extend %cf;
+}
+
+.skill {
+	display: inline-block;
+	&:after {
+		content: '\02022';
+		padding: 0 0.8em;
+	}
+	&:last-child:after {
+		content: '';
+		padding: 0;
+	}
+}
+
+.resume-requests {
+	font-style: italic;
+	text-align: center;
+	margin-top: $unit*4;
 }
 
 //
@@ -158,49 +197,6 @@ img {
 }
 
 // 
-// RESUME
-// 
-
-.resume-section-title { text-align: center; }
-
-.resume-name { display: inline; }
-
-.resume-dates {
-	display: inline;
-	font-size: 0.8em;
-	font-style: italic;
-	color: $text-light;
-}
-
-.resume-desc {
-	font-size: 0.9em;
-	clear: both;
-}
-
-.skills {
-	text-align: center;
-	@extend %cf;
-}
-
-.skill {
-	display: inline-block;
-	&:after {
-		content: '\02022';
-		padding: 0 0.8em;
-	}
-	&:last-child:after {
-		content: '';
-		padding: 0;
-	}
-}
-
-.resume-requests {
-	font-style: italic;
-	text-align: center;
-	margin-top: $unit*4;
-}
-
-// 
 // MEDIA QUERIES
 // 
 
@@ -221,6 +217,7 @@ img {
 	body {
 		font-size: 17px;
 		padding: 0;
+		background: #fff;
 	}
 	.body-wrapper { padding: $unit*2; }
 	.nav li { margin-left: $unit; }
@@ -229,11 +226,16 @@ img {
 @media all and (max-width: 400px) {
 	body { font-size: 16px; }
 	.body-wrapper { padding: $unit; }
-	h1 { margin: $unit*2 0; }
-	.footer { margin-top: $unit*3; }
+	h1 {
+		margin: $unit*2 0;
+		font-size: 1.8em;
+	}
 	.project { margin: $unit*3 0; }
 	.project-banner + .project-name { margin: $unit 0; }
 	.skill:after { padding: 0 0.5em; }
+	.footer { margin-top: $unit*3; }
+	.footer-block { padding: 1em 0; }
+	.footer-elsewhere { padding-left: 1em; }
 }
 
 @import 'print';

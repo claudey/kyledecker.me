@@ -220,12 +220,20 @@ img {
 @media all and (max-width: 500px) {
 	body {
 		font-size: 17px;
-		padding: $unit 0 0 0;
+		padding: 0;
 	}
+	.body-wrapper { padding: $unit*2; }
+	.nav li { margin-left: $unit; }
 }
 
 @media all and (max-width: 400px) {
 	body { font-size: 16px; }
+	.body-wrapper { padding: $unit; }
+	h1 { margin: $unit*2 0; }
+	.footer { margin-top: $unit*3; }
+	.project { margin: $unit*3 0; }
+	.project-banner + .project-name { margin: $unit 0; }
+	.skill:after { padding: 0 0.5em; }
 }
 
 @import 'print';

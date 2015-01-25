@@ -11,6 +11,9 @@ fields:
 	website:
 		label: Website
 		type:  url
+	intro:
+		label: Intro
+		type:  textarea
 	text:
 		label: Text
 		type:  textarea

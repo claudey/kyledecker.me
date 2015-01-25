@@ -1,0 +1,25 @@
+Title: Nintendo Pipeline
+
+----
+
+Website: http://nintendopipeline.net
+
+----
+
+Text: 
+
+### History
+
+### Rethinking ranks
+
+In 2011 I overhauled the rank system. Forum 'ranks' are used to distribute power, granting additional abilities to those who post more.  'Ranking up' will change someone's username color, allowing people to distinguish which members are most active.
+
+The initial system was inconsistent and poorly planned. Distances between ranks varied widely, and rank colors were essentially random. To create a system that was understandable at first glance, I ordered ranks by color. Red and orange are low ranks; blue and purple are high ones. The progression repeats twice, the second time in bold. I also ironed out the steep increases in difficulty.
+
+### Promo banners
+
+### Since then
+
+----
+
+Intro: The Nintendo Pipeline is an online gaming community that I managed between 2009 and 2012. I coded themes, designed icons, hosted events, and resolved conflicts when they arose, providing a friendly place for people to connect. (link: ./nintendo-pipeline text: Read history and case studies →)

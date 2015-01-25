@@ -6,10 +6,10 @@ password: >
   $2a$10$.ZeuDX1OsnUpcJAoSXCxi.3DIwr.uD9KEnC5P9sKDb9bP6.2bvp/W
 language: en
 role: admin
-token: 969f9c6149dc6adf26300d5e63e360e948ed6d13
+token: a9503e78a51d7e46b1b5a006b51618fddd03a24d
 history:
-  - projects/tunetwin
-  - home
-  - projects/winter-mix
+  - projects/nintendo-pipeline
   - projects/catnap
+  - projects/tunetwin
+  - projects/winter-mix
   - projects

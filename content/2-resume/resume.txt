@@ -24,7 +24,7 @@ Experience:
   job_name: Freelance Designer
   job_dates: Fall 2009 – Present
   job_desc: >
-    Flying solo, I have designed websites,
+    Flying solo, I design websites,
     logos, billboards, t-shirts, business
     cards, and posters for various clients.
     I manage billing and deadlines,

@@ -2,8 +2,12 @@ Title: Catnap Creative
 
 ----
 
-Text: (link: http://liamscott.me text: Liam Scott) and I founded (link: http://catnap.co text: Catnap) after seeing the low quality of work put out by many design agencies in our area. We wanted to create something better. We won't resell pre-made themes to you—everything we design is from scratch, according to the needs of your project.
+Text: 
 
 ----
 
 Website: http://catnap.co
+
+----
+
+Intro: (link: http://liamscott.me text: Liam Scott) and I founded (link: http://catnap.co text: Catnap) after seeing the low quality of work put out by many design agencies in our area. We wanted to create something better. We won't resell pre-made themes to you—everything we design is from scratch, according to the needs of your project.

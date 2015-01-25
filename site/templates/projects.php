@@ -13,12 +13,11 @@
 						<a class="project-banner" href="<?php echo $project->website()->html() ?>"><img src="<?php echo $image->url() ?>"></a>
 					<?php endif ?>
 					<h3 class="project-name"><?php echo $project->title()->html() ?></h3>
-					<?php echo $project->text()->kirbytext() ?>
+					<?php echo $project->intro()->kirbytext() ?>
 				</div>
 			<?php endforeach ?>
 		</div>
 	</div>
-
 </main>
 
 <?php snippet('footer') ?>

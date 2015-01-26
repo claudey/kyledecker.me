@@ -20,6 +20,7 @@
 
 </head>
 <body>
+	<?php snippet('analytics') ?>
 	<div class="body-wrapper">
 		<header class="header wrapper" role="banner">
 			<a class="logo" href="<?php echo url() ?>">

@@ -10,11 +10,12 @@ Education:
     Greensboro
   school_dates: Fall 2011 – Spring 2015
   school_desc: >
-    BA in Music with a Computer Science
-    Minor; 3.93 GPA (as of Spring 2014).
-    Katherine Smith Reynolds scholarship
-    recipient. Teaching assistant for ART
-    446 (Graphic Design) during Spring 2013.
+    Bachelor of Arts in Music with a
+    Computer Science minor; 3.93 GPA (as of
+    Spring 2014). Katherine Smith Reynolds
+    scholarship recipient. Teaching
+    assistant for ART 446 (Graphic Design)
+    during Spring 2013.
 
 ----
 
@@ -24,10 +25,10 @@ Experience:
   job_name: Freelance Designer
   job_dates: Fall 2009 – Present
   job_desc: >
-    Flying solo, I design websites,
-    logos, billboards, t-shirts, business
-    cards, and posters for various clients.
-    I manage billing and deadlines,
+    Flying solo, I design websites, logos,
+    billboards, t-shirts, business cards,
+    and posters for various clients. I
+    manage billing and deadlines,
     communicating early and often to discuss
     progression and next steps.
 - 
@@ -52,6 +53,11 @@ Skills:
 - 
   skill: Logo Design
 - 
+  skill: SEO
+- 
+  skill: Git
+  is_acronym: 'false'
+- 
   skill: Front-End Development
 - 
   skill: Photography
@@ -67,10 +73,5 @@ Skills:
   is_acronym: 'false'
 - 
   skill: Copywriting
-- 
-  skill: Search Engine Optimization
-- 
-  skill: Git
-  is_acronym: 'false'
 - 
   skill: OS X

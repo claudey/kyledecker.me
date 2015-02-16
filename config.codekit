@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "18493",
 "files": {
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
@@ -97,57 +97,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/1-catnap\/banner.jpg": {
+	"\/content\/1-projects\/nintendo-pipeline\/banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 25111,
-		"inputAbbreviatedPath": "\/content\/1-projects\/1-catnap\/banner.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/1-catnap\/banner.jpg",
+		"initialSize": 48789,
+		"inputAbbreviatedPath": "\/content\/1-projects\/nintendo-pipeline\/banner.jpg",
+		"outputAbbreviatedPath": "\/content\/1-projects\/nintendo-pipeline\/banner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/2-winter-mix\/banner.jpg": {
+	"\/content\/discoveries\/1-fantasy-life\/fantasy-life.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85990,
-		"inputAbbreviatedPath": "\/content\/1-projects\/2-winter-mix\/banner.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/2-winter-mix\/banner.jpg",
+		"initialSize": 161572,
+		"inputAbbreviatedPath": "\/content\/discoveries\/1-fantasy-life\/fantasy-life.jpg",
+		"outputAbbreviatedPath": "\/content\/discoveries\/1-fantasy-life\/fantasy-life.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/2-winter-mix\/banner.png": {
-		"fileType": 32768,
+	"\/content\/discoveries\/2-wintergatan\/wintergatan.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 98287,
-		"inputAbbreviatedPath": "\/content\/1-projects\/2-winter-mix\/banner.png",
-		"outputAbbreviatedPath": "\/content\/1-projects\/2-winter-mix\/banner.png",
+		"initialSize": 407884,
+		"inputAbbreviatedPath": "\/content\/discoveries\/2-wintergatan\/wintergatan.jpg",
+		"outputAbbreviatedPath": "\/content\/discoveries\/2-wintergatan\/wintergatan.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/1-projects\/3-tunetwin\/banner.jpg": {
+	"\/content\/discoveries\/3-space-dandy\/space-dandy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30600,
-		"inputAbbreviatedPath": "\/content\/1-projects\/3-tunetwin\/banner.jpg",
-		"outputAbbreviatedPath": "\/content\/1-projects\/3-tunetwin\/banner.jpg",
+		"initialSize": 147227,
+		"inputAbbreviatedPath": "\/content\/discoveries\/3-space-dandy\/space-dandy.jpg",
+		"outputAbbreviatedPath": "\/content\/discoveries\/3-space-dandy\/space-dandy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/content\/home\/selfie.jpg": {
+	"\/content\/discoveries\/4-nicely-said\/nicely-said.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 58087,
-		"inputAbbreviatedPath": "\/content\/home\/selfie.jpg",
-		"outputAbbreviatedPath": "\/content\/home\/selfie.jpg",
+		"initialSize": 103722,
+		"inputAbbreviatedPath": "\/content\/discoveries\/4-nicely-said\/nicely-said.jpg",
+		"outputAbbreviatedPath": "\/content\/discoveries\/4-nicely-said\/nicely-said.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3005,6 +3005,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/site\/blueprints\/discoveries.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/blueprints\/discoveries.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/blueprints\/discovery.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/blueprints\/discovery.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/site\/blueprints\/error.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3059,11 +3077,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/site\/config\/config.php": {
+	"\/site\/config\/config.kyledecker.me.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site\/config\/config.php",
+		"inputAbbreviatedPath": "\/site\/config\/config.kyledecker.me.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/config\/config.localhost.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/config\/config.localhost.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3073,6 +3100,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/site\/plugins\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/snippets\/analytics.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/snippets\/analytics.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/site\/snippets\/discoveries.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/snippets\/discoveries.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3157,6 +3202,83 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/thumbs\/artwar-1f373790d6e85378a870830741e7cc30.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61391,
+		"inputAbbreviatedPath": "\/thumbs\/artwar-1f373790d6e85378a870830741e7cc30.png",
+		"outputAbbreviatedPath": "\/thumbs\/artwar-1f373790d6e85378a870830741e7cc30.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/fantasy-life-ea51f38180777cb4ce6049ccf0aaecda.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65241,
+		"inputAbbreviatedPath": "\/thumbs\/fantasy-life-ea51f38180777cb4ce6049ccf0aaecda.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/fantasy-life-ea51f38180777cb4ce6049ccf0aaecda.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/kylespritebig-00a265b5a17a264e3d24acf3214564c8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5708,
+		"inputAbbreviatedPath": "\/thumbs\/kylespritebig-00a265b5a17a264e3d24acf3214564c8.png",
+		"outputAbbreviatedPath": "\/thumbs\/kylespritebig-00a265b5a17a264e3d24acf3214564c8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/nicely-said-bdbd4fb63d061fb9da266b6c7fc0a9c3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34694,
+		"inputAbbreviatedPath": "\/thumbs\/nicely-said-bdbd4fb63d061fb9da266b6c7fc0a9c3.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/nicely-said-bdbd4fb63d061fb9da266b6c7fc0a9c3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/signature-5b55ee46741abb9963de3a060149726d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35321,
+		"inputAbbreviatedPath": "\/thumbs\/signature-5b55ee46741abb9963de3a060149726d.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/signature-5b55ee46741abb9963de3a060149726d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/space-dandy-e386f5c966089517c6b5dfff1169c2e9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60612,
+		"inputAbbreviatedPath": "\/thumbs\/space-dandy-e386f5c966089517c6b5dfff1169c2e9.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/space-dandy-e386f5c966089517c6b5dfff1169c2e9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/wintergatan-b9257a3b33ac36308be440793550d398.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35423,
+		"inputAbbreviatedPath": "\/thumbs\/wintergatan-b9257a3b33ac36308be440793550d398.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/wintergatan-b9257a3b33ac36308be440793550d398.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
@@ -3207,6 +3329,10 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -3300,6 +3426,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -3356,6 +3486,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -3378,6 +3512,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -3432,6 +3570,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -3475,6 +3617,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -3541,6 +3687,10 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3768,6 +3918,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -3792,8 +3943,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -3830,6 +3982,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3873,6 +4029,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3885,8 +4045,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

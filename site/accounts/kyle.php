@@ -6,10 +6,10 @@ password: >
   $2a$10$.ZeuDX1OsnUpcJAoSXCxi.3DIwr.uD9KEnC5P9sKDb9bP6.2bvp/W
 language: en
 role: admin
-token: 11ecfa5b9efb28203857fa325f3ce53acad019f1
+token: 874a646943c8831ea64675c62a137702331cf7c1
 history:
-  - resume
-  - projects/nintendo-pipeline
-  - projects/catnap
-  - projects/tunetwin
-  - projects/winter-mix
+  - bandcamp
+  - discoveries
+  - discoveries/wintergatan
+  - discoveries/space-dandy
+  - discoveries/nicely-said

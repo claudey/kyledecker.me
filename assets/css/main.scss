@@ -46,6 +46,14 @@ a {
 	max-width: 900px;
 }
 
+.main {
+	ul, ol { padding-left: $unit*2 }
+	ul { list-style-type: disc; }
+	ol { list-style-type: decimal; }
+}
+
+figure { margin: 0; }
+
 // HEADER
 
 .header {
@@ -150,6 +158,73 @@ img {
 	font-style: italic;
 	text-align: center;
 	margin-top: $unit*4;
+}
+
+//
+// BANDCAMP
+//
+
+ul.fb-messages {
+	@extend %cf;
+	padding: 0;
+	li { 
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 0.8em;
+		font-weight: 400;
+		background: #f0f0f0;
+		display: inline-block;
+		padding: 0.75em 1em;
+		border-radius: 4px;
+		max-width: 80%;
+		margin: 2px 0;
+		clear: both;
+	}
+}
+
+ul.fb-messages-left {
+	li {
+		float: left;
+		border-top-right-radius: 1.5em;
+		border-bottom-right-radius: 1.5em;
+		&:first-child { border-top-left-radius: 1.5em; }
+		&:last-child { border-bottom-left-radius: 1.5em; }
+	}
+}
+
+ul.fb-messages-right {
+	li {
+		background: $blue;
+		color: #fff;
+		float: right;
+		border-top-left-radius: 1.5em;
+		border-bottom-left-radius: 1.5em;
+		&:first-child { border-top-right-radius: 1.5em; }
+		&:last-child { border-bottom-right-radius: 1.5em; }
+	}
+}
+
+.discoveries {
+	@extend %cf;
+	margin-left: -$unit;
+	margin-right: -$unit;
+	.discovery {
+		float: left;
+		width: 50%;
+		text-align: center;
+		padding: $unit;
+		h4 {
+			@extend %font-sans;
+			font-size: 0.8em;
+			color: $text-light;
+		}
+	}
+}
+
+.signature {
+	margin-top: $unit*4;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
 }
 
 //
